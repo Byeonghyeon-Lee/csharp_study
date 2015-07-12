@@ -11,6 +11,7 @@ github remote repository for C Sharp Study
 local 환경에 작업 대상의 git repository를 깃허브나 깃랩과 같은 remote repository로부터 복사해오는것을 `clone`이라고 합니다.<br>
 제가 CLI(Command Line Interface)로 밖에 git을 써보지 않아서 부득이하게 명령어 위주로 설명을 하게 될것 같습니다...<br>
 GUI를 활용하는 방법에 대해서는 생활코딩 홈페이지에 있는 Git 강의를 참조하시면 될것 같습니다.<br>
+`https://opentutorials.org/course/1492`<br>
 
 우선 이 repository를 clone하기 위해서 필요한 과정이 있습니다.<br>
 
