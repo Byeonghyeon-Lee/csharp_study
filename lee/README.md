@@ -4,9 +4,9 @@
 
 ## 개인스터디 01 - 채팅 프로그램
 C#을 이용하여 멀티스레드, 소켓 통신 등의 방법을 이용해서 간단한 채팅 프로그램을 만든다.<br>
-시작일시: 미정
-참고자료: http://slaner.tistory.com/40 (서버편)
-         http://slaner.tistory.com/52 (클라이언트편)
+시작일시: 미정<br>
+참고자료: http://slaner.tistory.com/40 (서버편)<br>
+         http://slaner.tistory.com/52 (클라이언트편)<br>
 
 ## 개인스터디 02 - DB 연동 프로젝트
 C#에 Database를 연동시켜 간단한 은행 계좌 관리 프로그램을 작성한다.<br>
