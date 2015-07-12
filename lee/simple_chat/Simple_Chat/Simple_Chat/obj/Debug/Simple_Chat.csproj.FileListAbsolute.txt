@@ -1,0 +1,1 @@
+C:\csharp_study\csharp_study\lee\simple_chat\Simple_Chat\Simple_Chat\bin\Debug\Simple_Chat.exe.config
