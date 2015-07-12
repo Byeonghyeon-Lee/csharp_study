@@ -28,22 +28,12 @@ GUI를 활용하는 방법에 대해서는 생활코딩 홈페이지에 있는 G
 	git config --list
 	
 	3. github 계정에 ssh key 등록하기
-	이곳에 적기에는 너무 설명이 길어질것 같으므로 ssh key 생성에 대해서는 생활코딩 홈페이지를 보고 설정해주세요.
-	https://opentutorials.org/course/785/4936
-	여기에서 gitlab ssh key win 동영상을 보시고 따라하시면 됩니다. ssh key를 생성해서 내용을 복사하는 곳까지만 보시면 됩니다.
-	단, 생성된 ssh key 파일 두개는 혹시 나중에 별도의 ssh key를 만드실 일이 생길 경우를 대비해 다른것과 구분되도록 파일 이름을 변경해주세요.
-
-	생성된 ssh key 파일중 .pub 파일의 내용을 복사합니다(파일 내용을 복사하는것까지는 생활코딩의 동영상에 나와있을것이라 생각합니다.)
-	웹브라우저의 github 프로젝트로 돌아갑니다.
-	화면 우측 상단의 맨 오른쪽에 위치한 아이콘을 클릭하면 드롭다운 메뉴가 표시될텐데요, setting(혹은 설정)을 클릭합니다.
-	이동한 화면에서 좌측 메뉴를 보면 SSH keys라는 메뉴가 있는데요, 클릭하여 이동합니다.
-	Add SSH Key 버튼을 눌러 title에는 파일 이름 혹은 본인이 알아볼 수 있는 이름을, Key에는 방금 전에 복사한 .pub 파일의 내용을 붙여넣기 하여 Add Key 버튼을 누릅니다.
-	ex) title: ssh_from_lee_MBP_13 / Key: (sshkey.pub의 내용)
-
-	최종적으로 ssh key의 등록까지 잘 이루어졌는지 확인하기 위해 다음의 커맨드를 입력합니다.
-	ssh -T git@github.com
-	만약, 에러가 나거나 유저이름 등이 메세지에 표시가 되지 않는 경우에는 아래의 홈페이지를 참조해주세요.
+	아래의 URL에 접속하셔서 따라해주세요.
 	https://help.github.com/articles/generating-ssh-keys/#platform-windows
+
+	단, 설명중 Step3에서 ssh-agent를 활성화시키는 과정에서는 git-bash를 실행시킨채로,
+	두번째에 나와있는 커맨드인, eval $(ssh-agent -s)를 입력해주세요.
+	집에 있는 윈도우 노트북에서 실행시켜 봤습니다만, 단지 ssh-agent -s 커맨드로는 잘 되지 않았습니다.
 
 	4. 저에게 github에 등록하신 username 혹은 full name을 알려주세요!!
 	혹시 이미 github에 제가 collaborator로 등록을 해드렸으면 여기는 skip해주세요.
